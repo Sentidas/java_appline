@@ -15,13 +15,13 @@ public class Task4 {
     }
 
     int minNumber = 10;
-    int maxNumber = 0;
+    int maxNumber = -10;
     int indexMaxNumber = 0;
     int indexMinNumber = 0;
 
     for (int i = 0; i < array.length; i++) {
       if (array[i] < 0) {
-        if (maxNumber > array[i]) {
+        if (maxNumber < array[i]) {
           maxNumber = array[i];
           indexMaxNumber = i;
         }
