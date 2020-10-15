@@ -1,4 +1,4 @@
-package task7.operations;
+package task7_8.operations;
 
 public class Multiplication extends Operation implements DoOperation{
 

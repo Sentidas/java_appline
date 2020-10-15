@@ -1,4 +1,4 @@
-package task7;
+package task7_8;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

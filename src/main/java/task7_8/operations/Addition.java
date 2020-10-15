@@ -1,4 +1,4 @@
-package task7.operations;
+package task7_8.operations;
 
 
 public class Addition extends Operation implements DoOperation{
@@ -6,6 +6,8 @@ public class Addition extends Operation implements DoOperation{
   public Addition(double x, double y) {
     super(x, y);
   }
+
+
 
   public double doOperation() {
     double res = super.x + super.y;

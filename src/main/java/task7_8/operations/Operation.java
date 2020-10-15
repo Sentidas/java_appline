@@ -1,4 +1,4 @@
-package task7.operations;
+package task7_8.operations;
 
 public class Operation {
 
@@ -6,6 +6,10 @@ public class Operation {
   protected double y;
 
   public Operation(double x, double y) {
+    this.x = x;
+    this.y = y;
+  }
+  public Operation() {
     this.x = x;
     this.y = y;
   }
